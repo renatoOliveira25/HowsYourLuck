@@ -4,6 +4,7 @@
   "displayName": "How's Your Luck?",
   "description": "Do you feel luck today?",
   "version": "0.0.1",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.109.0"
   },

@@ -39,7 +39,8 @@ export function activate(context: vscode.ExtensionContext) {
 			fs.unlinkSync(unluckyFile);
 
 			vscode.window.showErrorMessage(
-				`💀 BANG! Your luck ran out. Deleted: ${path.basename(unluckyFile)}`
+				//`💀 BANG! Your luck ran out. Deleted: ${path.basename(unluckyFile)}`
+				`💀 BANG! Your luck ran out.`
 			);
 
 		} catch (err) {
